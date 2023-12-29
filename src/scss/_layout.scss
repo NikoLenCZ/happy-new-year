@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+:root {
+  font-family: 'Nunito', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  @apply text-white;
+}
+
+html {
+  background: linear-gradient(315deg, #15304B 0%,  #0C0E1F 71%) no-repeat center center fixed;
+}
+
+body {
+  @apply px-4;
+}
+
+header {
+  @apply lg:max-w-5xl max-w-xl mx-auto;
+}
+
+dotlottie-player {
+  @apply absolute top-0;
+}
