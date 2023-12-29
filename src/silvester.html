@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy New Year!</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favi/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favi/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favi/favicon-16x16.png">
+  <link rel="manifest" href="/favi/site.webmanifest">
+  <script type="module" src="./js/index.js" defer></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"
+    defer></script>
+</head>
+
+<body class="silvester">
+
+  <img class="img-clocks" src="/img/clocks.png" alt="clocks">
+  <img class="img-lucky" src="/img/luck2.png" alt="clocks">
+  <header>
+    <h1>Nový rok 2024 přichází:</h1>
+  </header>
+  <section class="my-4 lg:my-16 countdown__box ">
+    <div class="min-h-[4rem]" id="countdown">
+    </div>
+  </section>
+  <section class="firework__section">
+
+    <div class="flex justify-center">
+      <img src="/img/glasses.png" alt="glasses">
+    </div>
+
+    <dotlottie-player hidden src="https://lottie.host/98121775-b5ef-4098-b7ec-f68cc6f1acc2/w1n2NAJtdA.json"
+      background="transparent" speed="1" style="max-width: 100%; max-height: 100%;" loop autoplay></dotlottie-player>
+  </section>
+  <section class="relative z-50 my-5">
+    <audio class="mx-auto md:ml-auto md:mx-0" controls autoplay>
+      <source src="/music/silvester.mp3" type="audio/mp3">
+      Váš prohlížeč nepodporuje zvukový element.
+    </audio>
+  </section>
+</body>
+
+</html>
