@@ -53,4 +53,4 @@ https://nikolencz.github.io/happy-new-year/
 
 ## ⚠️ Disclaimer:
 
-Tato stránka neslouží k žádnému komerčnímu účelu, jedná se pouze o soutěžní projekt. Texty a obrázky (kromě vánoční dekorace) jsou převzaty z oficiálních stránek Lenovo.
+Tato stránka neslouží k žádnému komerčnímu účelu, jedná se pouze o soutěžní projekt.
