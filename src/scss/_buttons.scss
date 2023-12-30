@@ -10,9 +10,8 @@
 }
 
 .link-next {
-  @apply block text-xl font-bold text-center mb-10 mt-20;
-  @apply border sm:max-w-xs mx-auto border-cyan-700 hover:border-cyan-600 shadow-md hover:shadow-lg shadow-cyan-200 hover:shadow-cyan-200 text-white font-bold py-4 px-6 rounded;
+  @apply block  transition-all duration-300 text-xl font-bold text-center mb-10 mt-20 border sm:max-w-xs mx-auto border-cyan-700 hover:border-cyan-600 shadow-md hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.5)] shadow-cyan-200 hover:shadow-cyan-200 text-white py-4 px-6 rounded;
   &.disabled {
-    @apply opacity-50 hover:border-cyan-700 shadow-none hover:shadow-none cursor-not-allowed;
+    @apply opacity-50 hover:border-cyan-700 shadow-none hover:shadow-none cursor-not-allowed pointer-events-none;
   }
 }
